@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "wildcard_adventures",
+  "version": "${version}",
+  "name": "Wildcard Adventures",
+  "description": "Randomized adventures with mobs, shrines, crafting, commands, and multiplayer events.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.wildcard.WildcardAdventures"],
+    "client": ["com.example.wildcard.WildcardAdventuresClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
